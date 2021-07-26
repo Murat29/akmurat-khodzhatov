@@ -1,0 +1,44 @@
+$translatePx: 3px
+$borderThickness: 2px
+$buttonColor: #00cdac
+
+.link-container
+  position: relative
+  width: max-content
+  border: $borderThickness solid $buttonColor
+  box-sizing: border-box
+
+.link-container__link
+  display: block
+  width: calc( 100% + #{$borderThickness*2} )
+  height: calc( 100% + #{$borderThickness*2} )
+  padding: 5px 10px
+  margin: 0
+  box-shadow: none
+  box-sizing: border-box
+  cursor: pointer
+  outline: none
+  border: $borderThickness solid $buttonColor
+  background-color: $buttonColor
+  text-decoration: none
+  color: #ffffff
+  font-size: 14px
+  line-height: 17px
+  font-weight: 700
+  position: relative
+  top: $translatePx
+  left: $translatePx
+  transition: transform 0.1s linear
+  -webkit-transform: 0.1s linear
+
+  &:hover
+    transform: translate(-#{$translatePx + $borderThickness}, -#{$translatePx + $borderThickness})
+
+  &:focus
+    border-color: #000000
+
+@media screen and (max-width: 425px)
+  .btn-container__btn
+    padding: 3px 7px
+    font-size: 12px
+    line-height: 15px
