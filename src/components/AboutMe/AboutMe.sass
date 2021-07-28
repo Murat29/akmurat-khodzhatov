@@ -1,0 +1,67 @@
+@import '../../assets/font'
+
+.about-me
+    height: 80vh
+    background-image: url('../../images/background.svg')
+    background-size: 100% 100%
+
+.about-me__container
+    margin-top: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 30px
+
+@media screen and (max-width: 768px)
+    .about-me__container
+        flex-direction: column
+
+.about-me__text-container
+    max-width: 40%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 10px
+
+@media screen and (max-width: 768px)
+    .about-me__text-container
+        max-width: 100%
+        align-items: center
+
+.about-me__text
+    @include text
+    margin: 0
+    color: #ffffff
+
+@media screen and (max-width: 768px)
+    .about-me__text
+        text-align: center
+
+.about-me__avatar-container
+    font-size: 0
+    border-radius: 50%
+    overflow: hidden
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3)
+    min-width: 400px
+    height: 400px
+    background-image: url('../../images/avatar-evil.jpg')
+    &:hover .about-me__avatar
+        opacity: 0
+
+@media screen and (max-width: 768px)
+    .about-me__avatar-container
+        min-width: 300px
+        height: 300px
+
+@media screen and (max-width: 425px)
+    .about-me__avatar-container
+        min-width: 250px
+        height: 250px
+
+.about-me__avatar
+    object-fit: cover
+    height: 100%
+    width: 100%

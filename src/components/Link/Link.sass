@@ -1,26 +1,31 @@
 $translatePx: 3px
 $borderThickness: 2px
-$buttonColor: #00cdac
+$buttonColorTurquoise: #02aab0
+$buttonColorWhite: #ffffff
 
 .link-container
   position: relative
   width: max-content
-  border: $borderThickness solid $buttonColor
+  height: max-content
+  height: 33px
+  border: $borderThickness solid $buttonColorTurquoise
   box-sizing: border-box
   animation-delay: 1s
+  &_white
+    border: $borderThickness solid $buttonColorWhite
 
 .link-container__link
   display: block
   width: calc( 100% + #{$borderThickness*2} )
-  height: calc( 100% + #{$borderThickness*2} )
+  height: 33px
   padding: 5px 10px
   margin: 0
   box-shadow: none
   box-sizing: border-box
   cursor: pointer
   outline: none
-  border: 1px solid $buttonColor
-  background-color: $buttonColor
+  border: 1px solid $buttonColorTurquoise
+  background-color: $buttonColorTurquoise
   text-decoration: none
   color: #ffffff
   font-size: 14px
@@ -37,6 +42,12 @@ $buttonColor: #00cdac
 
   &:focus
     border-color: #000000
+
+  &_white
+    border: 1px solid $buttonColorWhite
+    background-color: $buttonColorWhite
+    color: #000000
+    height: calc( 100% + #{$borderThickness*2} )
 
 @media screen and (max-width: 425px)
   .btn-container__btn
