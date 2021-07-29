@@ -1,0 +1,83 @@
+@import '../../assets/font'
+
+.skills
+  min-height: 80vh
+
+.skills__container
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin: 0 auto
+
+.skills__subtitle
+  margin: 20px 0 0 0
+  max-width: 600px
+  @include text
+
+@media screen and (max-width: 768px)
+  .skills__subtitle
+    text-align: center
+
+.skills__techs
+  margin-top: 40px
+  display: flex
+  gap: 30px
+  max-width: 800px
+  width: 100%
+
+@media screen and (max-width: 768px)
+  .skills__techs
+    flex-direction: column
+    margin-top: 30px
+    gap: 20px
+
+@media screen and (max-width: 425px)
+  .skills__techs
+    margin-top: 20px
+    gap: 10px
+
+.skills__techs-container
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 100%
+
+.skills__tech-title
+  @include text
+
+.skills__icons-list
+  margin: 0
+  padding: 0
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  gap: 10px
+  justify-content: center
+
+@media screen and (max-width: 768px)
+  .skills__icons-list
+    max-width: 350px
+
+.skills__icon
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #e8e8e8
+  padding: 10px
+  border-radius: 10px
+  min-width: 95px
+  min-height: 60px
+  box-sizing: border-box
+  font-weight: normal
+  font-size: 14px
+  line-height: 17px
+  cursor: pointer
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.skills__icon_animated
+  transition: background-color 5s linear
