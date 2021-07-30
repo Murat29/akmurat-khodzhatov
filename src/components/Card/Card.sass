@@ -1,0 +1,29 @@
+@import '../../assets/font'
+
+.card
+  display: block
+  box-sizing: border-box
+  border-radius: 10px
+  overflow: hidden
+  cursor: pointer
+  -webkit-box-shadow: 0 0 5px #000000
+  box-shadow: 0 0 5px #000000
+  &:hover  .card__img
+    transform: scale(1.2)
+  &:hover  .card__title
+    color: #3333ff
+
+.card__img-container
+  overflow: hidden
+  font-size: 0
+
+.card__img
+  width: 100%
+  height: max-content
+  object-fit: cover
+  cursor: pointer
+  transition: .5s
+
+.card__title
+  padding: 0 10px
+  @include text

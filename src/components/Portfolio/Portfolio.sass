@@ -1,0 +1,35 @@
+@import '../../assets/section'
+
+.portfolio
+    @include section
+    min-height: 100vh
+
+.portfolio__container
+    @include container
+
+.portfolio__radio-list
+    display: flex
+    align-items: center
+    list-style-type: none
+    margin: 0
+    padding: 0
+    margin-top: 30px
+    gap: 20px
+
+@media screen and (max-width: 768px)
+    .portfolio__radio-list
+        gap: 10px
+
+@media screen and (max-width: 425px)
+    .portfolio__radio-list
+        gap: 5px
+        justify-content: space-between
+
+.portfolio__radio-item
+
+.portfolio__projects-list
+    list-style-type: none
+    padding: 0
+    display: grid
+    gap: 30px
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))

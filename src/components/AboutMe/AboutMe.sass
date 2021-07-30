@@ -1,11 +1,14 @@
 @import '../../assets/font'
+@import '../../assets/section'
 
 .about-me
-    min-height: 80vh
+    @include section
     background-image: url('../../images/background.svg')
     background-size: 100% 100%
+    padding-bottom: 100px
 
 .about-me__container
+    @include container
     margin-top: 20px
     display: flex
     justify-content: center
@@ -48,8 +51,6 @@
     min-width: 400px
     height: 400px
     background-image: url('../../images/avatar-evil.jpg')
-    &:hover .about-me__avatar
-        opacity: 0
 
 @media screen and (max-width: 768px)
     .about-me__avatar-container

@@ -1,13 +1,24 @@
 import React from 'react';
 import Title from '../Title/Title';
 import Link from '../Link/Link';
-import Section from '../Section/Section';
 import avatarKind from '../../images/avatar-kind.jpg';
 import './AboutMe.sass';
 
 function AboutMe() {
+  function handleClick(e) {
+    e.target.style.opacity = e.target.style.opacity === '1' ? '0' : '1';
+  }
+
+  function handleMouseOver(e) {
+    e.target.style.opacity = 0;
+  }
+
+  function handleMouseOut(e) {
+    e.target.style.opacity = 1;
+  }
+
   return (
-    <Section className="about-me">
+    <section className="about-me">
       <Title text="Обо мне" isWhite={true} />
       <div className="about-me__container">
         <div className="about-me__text-container">
@@ -29,10 +40,16 @@ function AboutMe() {
           />
         </div>
         <div className="about-me__avatar-container">
-          <img src={avatarKind} className="about-me__avatar" />
+          <img
+            src={avatarKind}
+            onClick={handleClick}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+            className="about-me__avatar"
+          />
         </div>
       </div>
-    </Section>
+    </section>
   );
 }
 

@@ -32,7 +32,7 @@ function Skills() {
   return (
     <Section className="skills">
       <div className="skills__container">
-        <Title text="Навыки" />
+        <Title text="Навыки" isWhite={true} />
         <p className="skills__subtitle">
           Я открыт для изучения новых технологий, с помощью которых можно
           создавать крутые приложения. Тем более современный Web развивается
@@ -57,7 +57,7 @@ function Skills() {
             </ul>
           </div>
           <div className="skills__techs-container">
-            <p className="skills__text">С чем я работал</p>
+            <p className="skills__tech-title">С чем я работал</p>
             <ul className="skills__icons-list">
               {additionalTechnologies.map((techTitle) => (
                 <li

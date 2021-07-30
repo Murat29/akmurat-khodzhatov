@@ -1,5 +1,14 @@
+@import '../../assets/section'
+
 .hello
   height: 100vh
+  display: flex
+  align-items: center
+  @include section
+
+.hello__container
+  @include container
+  max-width: 1400px
   display: flex
   flex-direction: column
   justify-content: center
