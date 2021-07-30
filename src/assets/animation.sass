@@ -4,13 +4,22 @@
     to
         opacity: 1
 
-@keyframes departure
+@keyframes departure-left
     from
         left: -5%
     to
         left: 0
 
-.emergence
-    opacity: 0
-    animation: opacity 0.5s linear, departure 1s linear
+@keyframes departure-bottom
+    from
+        top: 100px
+    to
+        top: 0
+
+.emergence-left
+    animation: opacity 0.5s linear, departure-left 1s linear
+    animation-fill-mode: forwards
+
+.emergence-bottom
+    animation: opacity 0.2s linear, departure-bottom 0.2s linear
     animation-fill-mode: forwards

@@ -1,13 +1,30 @@
 @import '../../assets/font'
+@import '../../assets/animation'
+
+@keyframes animation
+  from
+    top: 100px
+    opacity: 0
+  to
+    top: 0
+    opacity: 1
+
+.animation
+  animation: animation 0.2s linear
 
 .card
-  display: block
+  display: none
   box-sizing: border-box
   border-radius: 10px
   overflow: hidden
   cursor: pointer
   -webkit-box-shadow: 0 0 5px #000000
   box-shadow: 0 0 5px #000000
+  position: relative
+  transform: 0.2s
+  &_active
+    display: block
+
   &:hover  .card__img
     transform: scale(1.2)
   &:hover  .card__title

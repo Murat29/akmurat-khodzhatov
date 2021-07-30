@@ -7,7 +7,7 @@ function Link({ href, title, isWhite, animate }) {
   return (
     <div
       className={`link-container 
-      ${animate && 'emergence'} 
+      ${animate && 'emergence-left'} 
       ${isWhite && 'link-container_white'}`}
     >
       <a
@@ -16,7 +16,7 @@ function Link({ href, title, isWhite, animate }) {
         `}
         href={href}
         tabIndex="0"
-        target={href.includes('http') ? '_blank' : '_self'}
+        target={href?.includes('http') ? '_blank' : '_self'}
         rel="noreferrer"
       >
         {title}

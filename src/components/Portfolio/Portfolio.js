@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import Title from '../Title/Title';
 import Section from '../Section/Section';
 import InputRadio from '../InputRadio/InputRadio';
@@ -6,7 +7,7 @@ import Card from '../Card/Card';
 import { MyProjects } from '../../utils/constants';
 import './Portfolio.sass';
 
-function Portfolio() {
+function Portfolio({ openPopup }) {
   const [checkedRadio, setCheckedRadio] = useState('');
 
   function handleChangeRadio(e) {
@@ -56,15 +57,22 @@ function Portfolio() {
           </li>
         </ul>
         <ul className="portfolio__projects-list">
-          {MyProjects.filter((projectData) =>
-            projectData.type.includes(checkedRadio)
-          ).map((projectData) => (
-            <Card key={projectData.id} data={projectData} />
+          {MyProjects.map((projectData) => (
+            <Card
+              key={projectData.id}
+              data={projectData}
+              activeType={checkedRadio}
+              openPopup={openPopup}
+            />
           ))}
         </ul>
       </div>
     </Section>
   );
 }
+
+Portfolio.propTypes = {
+  openPopup: PropTypes.func,
+};
 
 export default Portfolio;
