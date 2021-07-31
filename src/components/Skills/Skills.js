@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from '../Section/Section';
 import Title from '../Title/Title';
 import {
   basicTechnologies,
@@ -30,7 +29,7 @@ function Skills() {
     }, 100);
   }
   return (
-    <Section className="skills">
+    <section className="skills" id="skills">
       <div className="skills__container">
         <Title text="Навыки" isWhite={true} />
         <p className="skills__subtitle">
@@ -74,7 +73,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </Section>
+    </section>
   );
 }
 

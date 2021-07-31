@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Title from '../Title/Title';
-import Section from '../Section/Section';
 import InputRadio from '../InputRadio/InputRadio';
 import Card from '../Card/Card';
 import { MyProjects } from '../../utils/constants';
@@ -15,7 +14,7 @@ function Portfolio({ openPopup }) {
   }
 
   return (
-    <Section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <div className="portfolio__container">
         <Title text="Портфолио" />
         <ul className="portfolio__radio-list">
@@ -67,7 +66,7 @@ function Portfolio({ openPopup }) {
           ))}
         </ul>
       </div>
-    </Section>
+    </section>
   );
 }
 

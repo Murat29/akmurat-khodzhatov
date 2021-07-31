@@ -5,7 +5,7 @@ import '../../assets/animation.sass';
 
 function Hello() {
   return (
-    <section className="hello">
+    <section className="hello" id="hello">
       <div className="hello__container">
         <div className="hello__text-container">
           <h1 className="hello__text emergence-left">

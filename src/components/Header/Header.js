@@ -55,23 +55,23 @@ function Header() {
           />
           <ul className="header__nav-list">
             <li>
-              <a className="header__nav-item" href="#">
+              <a className="header__nav-item" href="#hello">
                 Привет
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#">
+              <a className="header__nav-item" href="#about-me">
                 Обо мне
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#">
-                Навыки
+              <a className="header__nav-item" href="#portfolio">
+                Портфолио
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#">
-                Портфолио
+              <a className="header__nav-item" href="#skills">
+                Навыки
               </a>
             </li>
             <li>

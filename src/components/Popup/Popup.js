@@ -1,19 +1,35 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Link from '../Link/Link';
+import iconCross from '../../images/cross.svg';
 import './Popup.sass';
 
 function Popup({ isOpen, data, closePopup }) {
+  const popupRef = useRef();
+
   function closePopupEsc(e) {
     if (e.key === 'Escape') {
       closePopup();
+      resetSkoll();
     }
+  }
+
+  function closePopupCross() {
+    closePopup();
+    resetSkoll();
   }
 
   function closePopupOverflow(e) {
     if (e.target.classList.contains('popup')) {
       closePopup();
+      resetSkoll();
     }
+  }
+
+  function resetSkoll() {
+    setTimeout(() => {
+      popupRef.current.scrollTop = 0;
+    }, 290);
   }
 
   useEffect(() => {
@@ -28,8 +44,17 @@ function Popup({ isOpen, data, closePopup }) {
     <div
       onClick={closePopupOverflow}
       className={`popup ${isOpen && 'popup_is-opened'}`}
+      ref={popupRef}
     >
       <div className="popup__container">
+        <button className="popup__btn-close">
+          <img
+            className="popup__img-close"
+            src={iconCross}
+            onClick={closePopupCross}
+            alt="Закрыть попап."
+          />
+        </button>
         <h2 onClick={closePopup} className="popup__title">
           {data.title}
         </h2>

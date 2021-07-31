@@ -18,7 +18,7 @@ function AboutMe() {
   }
 
   return (
-    <section className="about-me">
+    <section className="about-me" id="about-me">
       <Title text="Обо мне" isWhite={true} />
       <div className="about-me__container">
         <div className="about-me__text-container">

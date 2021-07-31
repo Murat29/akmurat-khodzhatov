@@ -14,6 +14,9 @@ function App() {
   function openPopup(data) {
     setPopupData(data);
     setIsOpenPopup(true);
+    if (checkScroll()) {
+      document.body.classList.add('body_popup-open-scroll');
+    }
     document.body.classList.add('body_popup-open');
   }
 
@@ -21,9 +24,12 @@ function App() {
     setIsOpenPopup(false);
     setTimeout(() => {
       document.body.classList.remove('body_popup-open');
+      document.body.classList.remove('body_popup-open-scroll');
     }, 290);
+  }
 
-    // setPopupData({});
+  function checkScroll() {
+    return window.innerWidth !== document.body.clientWidth;
   }
 
   return (
