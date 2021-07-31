@@ -19,7 +19,11 @@ function Card({ data, activeType, openPopup }) {
       onClick={() => openPopup(data)}
     >
       <div className="card__img-container">
-        <img className="card__img" src={data.images[0]} />
+        <img
+          className="card__img"
+          src={data.images[0]}
+          alt="Изображение проекта"
+        />
       </div>
       <p className="card__title">{data.title}</p>
     </li>

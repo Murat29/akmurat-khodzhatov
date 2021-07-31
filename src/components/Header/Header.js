@@ -75,7 +75,7 @@ function Header() {
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#">
+              <a className="header__nav-item" href="#contact">
                 Контакты
               </a>
             </li>

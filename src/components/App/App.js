@@ -5,6 +5,8 @@ import AboutMe from '../AboutMe/AboutMe';
 import Skills from '../Skills/Skills';
 import Portfolio from '../Portfolio/Portfolio';
 import Popup from '../Popup/Popup';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 import './App.sass';
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
       <Portfolio openPopup={openPopup} />
       <Popup isOpen={isOpenPopup} data={popupData} closePopup={closePopup} />
       <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }

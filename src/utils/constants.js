@@ -11,6 +11,10 @@ import life from '../images/life.png';
 import memory from '../images/memory.png';
 import simon from '../images/simon.png';
 import trainer from '../images/trainer.png';
+import iconTelegram from '../images/icon-telegram.svg';
+import iconGitHub from '../images/icon-github.svg';
+import iconEmail from '../images/icon-email.svg';
+import iconVk from '../images/icon-vk.svg';
 
 export const basicTechnologies = [
   'JavaScript',
@@ -147,4 +151,15 @@ export const MyProjects = [
     repositoryLink: 'https://github.com/Murat29/touch-typing-trainer',
     projectLink: 'https://murat29.github.io/touch-typing-trainer',
   },
+];
+
+export const linksContact = [
+  {
+    src: iconTelegram,
+    href: 'https://t.me/SPB_Akmurat_Khodzhatov',
+    alt: 'Телеграмм.',
+  },
+  { src: iconGitHub, href: 'https://github.com/Murat29', alt: 'Гит Хаб.' },
+  { src: iconEmail, href: 'mailto:murat199611@mail.ru?', alt: 'Почта.' },
+  { src: iconVk, href: 'https://vk.com/murat1996', alt: 'Вконтакте.' },
 ];

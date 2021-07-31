@@ -46,6 +46,7 @@ function AboutMe() {
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
             className="about-me__avatar"
+            alt="Аватар."
           />
         </div>
       </div>

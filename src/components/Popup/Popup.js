@@ -61,7 +61,12 @@ function Popup({ isOpen, data, closePopup }) {
         <p className="popup__text">{data.description}</p>
         <p className="popup__text">Стек: {data.stack}</p>
         {data.images?.map((url, i) => (
-          <img src={url} className="popup__img" key={i}></img>
+          <img
+            src={url}
+            className="popup__img"
+            key={i}
+            alt={`Изображение проекта ${i + 1}`}
+          />
         ))}
         <div className="popup__links-container">
           <Link title="Репозиторий" href={data.repositoryLink} />
