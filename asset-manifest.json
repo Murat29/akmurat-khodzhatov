@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/akmurat-khodzhatov/static/css/main.28680075.chunk.css",
-    "main.js": "/akmurat-khodzhatov/static/js/main.d256f539.chunk.js",
-    "main.js.map": "/akmurat-khodzhatov/static/js/main.d256f539.chunk.js.map",
+    "main.js": "/akmurat-khodzhatov/static/js/main.b419e3b8.chunk.js",
+    "main.js.map": "/akmurat-khodzhatov/static/js/main.b419e3b8.chunk.js.map",
     "runtime-main.js": "/akmurat-khodzhatov/static/js/runtime-main.c4a8d640.js",
     "runtime-main.js.map": "/akmurat-khodzhatov/static/js/runtime-main.c4a8d640.js.map",
     "static/js/2.0ed56d38.chunk.js": "/akmurat-khodzhatov/static/js/2.0ed56d38.chunk.js",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.c4a8d640.js",
     "static/js/2.0ed56d38.chunk.js",
     "static/css/main.28680075.chunk.css",
-    "static/js/main.d256f539.chunk.js"
+    "static/js/main.b419e3b8.chunk.js"
   ]
 }
