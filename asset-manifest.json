@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/akmurat-khodzhatov/static/css/main.c4c214f0.chunk.css",
+    "main.js": "/akmurat-khodzhatov/static/js/main.d256f539.chunk.js",
+    "main.js.map": "/akmurat-khodzhatov/static/js/main.d256f539.chunk.js.map",
+    "runtime-main.js": "/akmurat-khodzhatov/static/js/runtime-main.c4a8d640.js",
+    "runtime-main.js.map": "/akmurat-khodzhatov/static/js/runtime-main.c4a8d640.js.map",
+    "static/js/2.0ed56d38.chunk.js": "/akmurat-khodzhatov/static/js/2.0ed56d38.chunk.js",
+    "static/js/2.0ed56d38.chunk.js.map": "/akmurat-khodzhatov/static/js/2.0ed56d38.chunk.js.map",
+    "static/js/3.e8415978.chunk.js": "/akmurat-khodzhatov/static/js/3.e8415978.chunk.js",
+    "static/js/3.e8415978.chunk.js.map": "/akmurat-khodzhatov/static/js/3.e8415978.chunk.js.map",
+    "index.html": "/akmurat-khodzhatov/index.html",
+    "static/css/main.c4c214f0.chunk.css.map": "/akmurat-khodzhatov/static/css/main.c4c214f0.chunk.css.map",
+    "static/js/2.0ed56d38.chunk.js.LICENSE.txt": "/akmurat-khodzhatov/static/js/2.0ed56d38.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.sass": "/akmurat-khodzhatov/static/media/background.de89beb0.svg",
+    "static/media/avatar-kind.cd563a32.jpg": "/akmurat-khodzhatov/static/media/avatar-kind.cd563a32.jpg",
+    "static/media/cross.c8e8fe9e.svg": "/akmurat-khodzhatov/static/media/cross.c8e8fe9e.svg",
+    "static/media/icon-email.6bc9519f.svg": "/akmurat-khodzhatov/static/media/icon-email.6bc9519f.svg",
+    "static/media/icon-github.dabc409d.svg": "/akmurat-khodzhatov/static/media/icon-github.dabc409d.svg",
+    "static/media/icon-telegram.3a2b8fce.svg": "/akmurat-khodzhatov/static/media/icon-telegram.3a2b8fce.svg",
+    "static/media/icon-vk.8e3f5ac2.svg": "/akmurat-khodzhatov/static/media/icon-vk.8e3f5ac2.svg",
+    "static/media/life.998124aa.png": "/akmurat-khodzhatov/static/media/life.998124aa.png",
+    "static/media/memory.4e1e87b2.png": "/akmurat-khodzhatov/static/media/memory.4e1e87b2.png",
+    "static/media/menu.ba7c7349.svg": "/akmurat-khodzhatov/static/media/menu.ba7c7349.svg",
+    "static/media/mesto1.8464ce41.png": "/akmurat-khodzhatov/static/media/mesto1.8464ce41.png",
+    "static/media/montserrat.sass": "/akmurat-khodzhatov/static/media/montserrat-regular.b71748ae.woff2",
+    "static/media/movies1.e1f31d54.png": "/akmurat-khodzhatov/static/media/movies1.e1f31d54.png",
+    "static/media/movies2.c4f4c95d.png": "/akmurat-khodzhatov/static/media/movies2.c4f4c95d.png",
+    "static/media/poet1.67be6fb7.png": "/akmurat-khodzhatov/static/media/poet1.67be6fb7.png",
+    "static/media/poet2.505601a2.png": "/akmurat-khodzhatov/static/media/poet2.505601a2.png",
+    "static/media/trainer.8f0392b6.png": "/akmurat-khodzhatov/static/media/trainer.8f0392b6.png",
+    "static/media/travel1.b687a1a4.png": "/akmurat-khodzhatov/static/media/travel1.b687a1a4.png",
+    "static/media/travel2.91460ab3.png": "/akmurat-khodzhatov/static/media/travel2.91460ab3.png",
+    "static/media/turbina.ac9f9951.png": "/akmurat-khodzhatov/static/media/turbina.ac9f9951.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4a8d640.js",
+    "static/js/2.0ed56d38.chunk.js",
+    "static/css/main.c4c214f0.chunk.css",
+    "static/js/main.d256f539.chunk.js"
+  ]
+}
