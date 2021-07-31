@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/akmurat-khodzhatov/static/css/main.28680075.chunk.css",
+    "main.css": "/akmurat-khodzhatov/static/css/main.5782c577.chunk.css",
     "main.js": "/akmurat-khodzhatov/static/js/main.b419e3b8.chunk.js",
     "main.js.map": "/akmurat-khodzhatov/static/js/main.b419e3b8.chunk.js.map",
     "runtime-main.js": "/akmurat-khodzhatov/static/js/runtime-main.c4a8d640.js",
@@ -10,7 +10,7 @@
     "static/js/3.e8415978.chunk.js": "/akmurat-khodzhatov/static/js/3.e8415978.chunk.js",
     "static/js/3.e8415978.chunk.js.map": "/akmurat-khodzhatov/static/js/3.e8415978.chunk.js.map",
     "index.html": "/akmurat-khodzhatov/index.html",
-    "static/css/main.28680075.chunk.css.map": "/akmurat-khodzhatov/static/css/main.28680075.chunk.css.map",
+    "static/css/main.5782c577.chunk.css.map": "/akmurat-khodzhatov/static/css/main.5782c577.chunk.css.map",
     "static/js/2.0ed56d38.chunk.js.LICENSE.txt": "/akmurat-khodzhatov/static/js/2.0ed56d38.chunk.js.LICENSE.txt",
     "static/media/AboutMe.sass": "/akmurat-khodzhatov/static/media/background.de89beb0.svg",
     "static/media/avatar-kind.cd563a32.jpg": "/akmurat-khodzhatov/static/media/avatar-kind.cd563a32.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.c4a8d640.js",
     "static/js/2.0ed56d38.chunk.js",
-    "static/css/main.28680075.chunk.css",
+    "static/css/main.5782c577.chunk.css",
     "static/js/main.b419e3b8.chunk.js"
   ]
 }
