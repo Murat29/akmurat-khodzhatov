@@ -55,27 +55,43 @@ function Header() {
           />
           <ul className="header__nav-list">
             <li>
-              <a className="header__nav-item" href="#hello">
+              <a onClick={closeMenu} className="header__nav-item" href="#hello">
                 Привет
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#about-me">
+              <a
+                onClick={closeMenu}
+                className="header__nav-item"
+                href="#about-me"
+              >
                 Обо мне
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#portfolio">
+              <a
+                onClick={closeMenu}
+                className="header__nav-item"
+                href="#portfolio"
+              >
                 Портфолио
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#skills">
+              <a
+                onClick={closeMenu}
+                className="header__nav-item"
+                href="#skills"
+              >
                 Навыки
               </a>
             </li>
             <li>
-              <a className="header__nav-item" href="#contact">
+              <a
+                onClick={closeMenu}
+                className="header__nav-item"
+                href="#contact"
+              >
                 Контакты
               </a>
             </li>
